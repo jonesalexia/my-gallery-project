@@ -1,0 +1,50 @@
+@media screen and (max-width:840px) {
+    nav img {
+        width: 101.76px;
+        height: 101.76px;
+    }
+
+    .user-name {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .user-location{
+        font-size: 10px;
+        line-height: 12px;
+    }
+    
+    .account-info {
+        font-size: 12px;
+        line-height: 15px;
+
+        height: 90px;
+    }
+
+    .number {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .text {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .info-box {
+        height: 50px;
+    }
+
+    .text-box {
+        margin-top: -40px;
+    }
+
+    main {
+        margin-left: 15px;
+        margin-top: 20px;
+    }
+
+    .gallery{
+        width: 450px;
+    }
+}
