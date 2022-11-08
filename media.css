@@ -1,4 +1,9 @@
 @media screen and (max-width:840px) {
+
+    footer {
+		padding-top: 30px;
+	}
+
     nav img {
         width: 101.76px;
         height: 101.76px;
@@ -46,20 +51,18 @@
 
     .gallery{
         width: 450px;
+        
     }
 }
 
 @media only screen and (max-width: 1000px) {
-	footer {
-		margin: 0 auto 15px;
-	}
-
+	
 	.gallery {
 		grid-auto-rows: minmax(110px, auto);
 		width: 651px;
 		height: 653px;
 		margin: 60px auto;
-	}
+    }    
 
 	.gallery-item-1 {
 		margin: 0 5px 5px 0;
@@ -128,7 +131,7 @@
 @media only screen and (max-width: 500px) {
 	
     footer {
-        margin-top: 100px;
+        padding-top: 200px;
     }
 
     .navigation {
