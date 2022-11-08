@@ -48,3 +48,151 @@
         width: 450px;
     }
 }
+
+@media only screen and (max-width: 1000px) {
+	.footer {
+		margin: 0 auto 15px;
+	}
+
+	.gallery {
+		grid-auto-rows: minmax(110px, auto);
+		width: 651px;
+		height: 653px;
+		margin: 60px auto;
+	}
+
+	.gallery-item-1 {
+		margin: 0 5px 5px 0;
+	}
+
+	.gallery-item-2 {
+		margin: 0 0 5px 5px;
+	}
+
+	.gallery-item-3 {
+		margin: 5px 5px 5px 0;
+	}
+
+	.gallery-item-4 {
+		margin: 5px 0 0 5px;
+	}
+
+	.gallery-item-5 {
+		margin: 5px 5px 0 5px;
+	}
+
+	.gallery-item-6 {
+		margin: 5px 5px 0 0;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	.footer {
+		margin: 0 auto 24px;
+	}
+
+	.gallery {
+		grid-auto-rows: minmax(110px, auto);
+		width: 451px;
+		height: 453px;
+		margin: 50px auto;
+	}
+
+	.gallery-item-1 {
+		margin: 0 3px 3px 0;
+	}
+
+	.gallery-item-2 {
+		margin: 0 0 3px 3px;
+	}
+
+	.gallery-item-3 {
+		margin: 3px 3px 3px 0;
+	}
+
+	.gallery-item-4 {
+		margin: 3px 0 0 3px;
+	}
+
+	.gallery-item-5 {
+		margin: 3px 3px 0 3px;
+	}
+
+	.gallery-item-6 {
+		margin: 3px 3px 0 0;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	
+    .navigation {
+		margin: 18px auto 0;
+		width: 142px;
+	}
+	
+	nav img {
+		width: 102px;
+		margin: 13px auto 0;
+	}
+	
+	.user-name {
+		margin: 11px 0 14px 0;
+		width: 121px;
+		height: 19px;
+		font-weight: 600;
+		font-size: 14px;
+		line-height: 17px;
+	}
+	
+	.user-location {
+		margin-top: -8px;
+        margin-left: 50px;
+		width: 143px;
+		height: 11px;
+		font-size: 10px;
+		line-height: 12px;
+	}
+	
+	.account-info {
+		width: 260px;
+		height: 52px;
+		margin: 20px auto 0;
+	}
+	
+
+	.footer {
+		margin: 50px auto 10px;
+		padding-top: 50px;
+	}
+
+	.gallery {
+		grid-auto-rows: minmax(110px, auto);
+		width: 351px;
+		height: 353px;
+		margin: 45px auto;
+	}
+
+	.gallery-item-1 {
+		margin: 0 2px 2px 0;
+	}
+
+	.gallery-item-2 {
+		margin: 0 0 2px 2px;
+	}
+
+    .gallery-item-3 {
+		margin: 2px 2px 2px 0;
+	}
+
+	.gallery-item-4 {
+		margin: 2px 0 0 2px;
+	}
+
+	.gallery-item-5 {
+		margin: 2px 2px 0 2px;
+	}
+
+	.gallery-item-6 {
+		margin: 2px 2px 0 0;
+	}
+}
