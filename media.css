@@ -50,10 +50,7 @@
 }
 
 @media only screen and (max-width: 1000px) {
-	.footer {
-		margin: 0 auto 15px;
-	}
-
+	
 	.gallery {
 		grid-auto-rows: minmax(110px, auto);
 		width: 651px;
@@ -87,10 +84,7 @@
 }
 
 @media only screen and (max-width: 700px) {
-	.footer {
-		margin: 0 auto 24px;
-	}
-
+	.
 	.gallery {
 		grid-auto-rows: minmax(110px, auto);
 		width: 451px;
