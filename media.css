@@ -50,7 +50,10 @@
 }
 
 @media only screen and (max-width: 1000px) {
-	
+	footer {
+		margin: 0 auto 15px;
+	}
+
 	.gallery {
 		grid-auto-rows: minmax(110px, auto);
 		width: 651px;
@@ -84,7 +87,12 @@
 }
 
 @media only screen and (max-width: 700px) {
-	.
+	
+    footer {
+		margin: 50 auto 24px;
+	}
+
+
 	.gallery {
 		grid-auto-rows: minmax(110px, auto);
 		width: 451px;
@@ -119,6 +127,10 @@
 
 @media only screen and (max-width: 500px) {
 	
+    footer {
+        margin-top: 100px;
+    }
+
     .navigation {
 		margin: 18px auto 0;
 		width: 142px;
@@ -152,12 +164,7 @@
 		height: 52px;
 		margin: 20px auto 0;
 	}
-	
 
-	.footer {
-		margin: 50px auto 10px;
-		padding-top: 50px;
-	}
 
 	.gallery {
 		grid-auto-rows: minmax(110px, auto);
